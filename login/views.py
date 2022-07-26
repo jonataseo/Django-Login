@@ -9,3 +9,6 @@ def index(request):
 
 def comCDN(request):
     return render(request, 'login/cdn.html')
+
+def estatico(request):
+    return render(request, 'login/estatico.html')
